@@ -1,4 +1,6 @@
 <?php
+$pageTitle = 'Show '. $report['title'];
+
 /** @var $config */
 include_once __DIR__. "/../../config/app.php";
 
