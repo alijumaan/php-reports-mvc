@@ -1,3 +1,4 @@
+<?php /** @var $config */ ?>
 <footer class="mt-auto py-3 page-footer font-small indigo footer-bg text-dark text-center">
 
     <div class="row text-center d-flex justify-content-center pt-5 mb-3">

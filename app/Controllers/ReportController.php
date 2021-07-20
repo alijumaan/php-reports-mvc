@@ -92,15 +92,15 @@ class ReportController
                 $errors[] = 'Body is required';
             }
 
-            if (!is_dir(__DIR__ . '/../../assets/uploads')) {
-                mkdir(__DIR__ . '/../../assets/uploads');
+            if (!is_dir(__DIR__ . '/../../public/assets/uploads')) {
+                mkdir(__DIR__ . '/../../public/assets/uploads');
             }
 
             if (empty($errors)) {
                 $image = $_FILES['image'] ?? null;
                 if ($image && $image['tmp_name']) {
                     $imageName = RandomStringHelper::randomString(8) . '-' . $image['name'];
-                    $imagePath = __DIR__ . '/../../assets/uploads/' . $imageName;
+                    $imagePath = __DIR__ . '/../../public/assets/uploads/' . $imageName;
                     mkdir(dirname($imagePath));
                     move_uploaded_file($image['tmp_name'], $imagePath);
                 }
@@ -183,20 +183,20 @@ class ReportController
                 $errors[] = 'Body is required';
             }
 
-            if (!is_dir(__DIR__ . '/../../assets/uploads')) {
-                mkdir(__DIR__ . '/../../assets/uploads');
+            if (!is_dir(__DIR__ . '/../../public/assets/uploads')) {
+                mkdir(__DIR__ . '/../../public/assets/uploads');
             }
 
             if (!$errors) {
                 $image = $_FILES['image'] ?? null;
 
                 if ($image && $image['tmp_name']) {
-                    if ( __DIR__ . '/../../assets/uploads/' . $report['image']) {
-                        unlink( __DIR__ . '/../../assets/uploads/' . $report['image']);
+                    if ( __DIR__ . '/../../public/assets/uploads/' . $report['image']) {
+                        unlink( __DIR__ . '/../../public/assets/uploads/' . $report['image']);
                     }
 
                     $imageName = RandomStringHelper::randomString(8). '-'. $image['name'];
-                    $imagePath = __DIR__ . '/../../assets/uploads/' . $imageName;
+                    $imagePath = __DIR__ . '/../../public/assets/uploads/' . $imageName;
                     mkdir(dirname($imagePath));
                     move_uploaded_file($image['tmp_name'], $imagePath);
                 }
@@ -205,7 +205,7 @@ class ReportController
 
                 if ($conn->dbConn()->query($sql) === TRUE) {
                     $_SESSION['success'] = 'Report updated successfully';
-                    header('Location: ../../index.php');
+                    header('Location: /');
                 }else {
                     array_push($errors, "Something was wrong, Please try again later");
                     // echo "Error updating record: " . $conn->error;
@@ -226,7 +226,7 @@ class ReportController
         $errors = [];
 
         if (!$id) {
-            header("Location: ../../index.php");
+            header("Location: /");
             exit();
         }
 
@@ -241,8 +241,8 @@ class ReportController
         }
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            if (__DIR__ . '/../../assets/uploads/' . $report['image']) {
-                unlink(__DIR__ . '/../../assets/uploads/' . $report['image']);
+            if (__DIR__ . '/../../public/assets/uploads/' . $report['image']) {
+                unlink(__DIR__ . '/../../public/assets/uploads/' . $report['image']);
             }
 
             $sql = "DELETE FROM reports WHERE id = $id && user_id = $userId";

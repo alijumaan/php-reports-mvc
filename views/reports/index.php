@@ -1,6 +1,8 @@
 <?php
 $pageTitle = 'All reports';
 /** @var $config */
+/** @var $search */
+/** @var $reports */
 require_once __DIR__.'/../../config/app.php';
 
 ?>

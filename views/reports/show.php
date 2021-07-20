@@ -38,7 +38,7 @@ if (!isset($_SESSION['logged_in'])) {
                         <div class="col-2">
                             <?php if ($report['image']): ?>
                                 <img class="thumbnail"
-                                     src="<?php echo $config['app_url'].'assets/uploads/'.$report['image'] ?>"
+                                     src="<?php echo $config['app_url'].'assets/uploads/' . $report['image'] ?>"
                                      alt="image not found">
                             <?php endif; ?>
                         </div>
