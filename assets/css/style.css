@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8f5;
+}
+
+.navbar {
+    background-color: #083034 !important;
+}
+
+footer {
+    background-color: #083034 !important;
+}
+
+footer p, a{
+    color: #c9d0c7;
+}
+footer a{
+    color: #b34f4f;
+}
+
+div h3 a {
+    color: #083034;
+}
+
+.thumbnail{
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+}
