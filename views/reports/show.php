@@ -1,10 +1,10 @@
 <?php
+/** @var $report */
 $pageTitle = 'Show '. $report['title'];
 
 /** @var $config */
 include_once __DIR__. "/../../config/app.php";
 
-/** @var $report */
 if (!isset($_SESSION['logged_in'])) {
     header('location: ../login');
 }
