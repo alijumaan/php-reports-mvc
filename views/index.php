@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Home page</h1>
+    <h1>This is a Homepage</h1>
+    <a class="btn btn-primary" href="/reports">Go to all reports</a>
 </body>
 </html>
