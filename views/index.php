@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is a Homepage</h1>
-    <a class="btn btn-primary" href="/reports">Go to all reports</a>
+    <div class="text-center">
+        <h1>PHP open source Project mvc</h1>
+        <a class="btn btn-primary mt-3" href="/reports">GO to All Reports</a>
+    </div>
 </body>
 </html>
