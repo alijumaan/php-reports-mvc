@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92fd99bb-9d03-4451-a7d6-eb9abfe70bd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports_barmej.sql" beforeDir="false" afterPath="$PROJECT_DIR$/reports_php.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,8 @@
       <workItem from="1626776017317" duration="2703000" />
       <workItem from="1626814849997" duration="1179000" />
       <workItem from="1626871662111" duration="1808000" />
-      <workItem from="1626903670740" duration="1102000" />
+      <workItem from="1626903670740" duration="1987000" />
+      <workItem from="1626947955817" duration="824000" />
     </task>
     <servers />
   </component>

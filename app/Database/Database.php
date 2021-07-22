@@ -8,8 +8,8 @@ class Database extends \mysqli
 {
     protected string $server_name = "localhost";
     protected string $user_name = "root";
-    protected string $password = "alijumaan";
-    protected string $dbname = "reports_barmej";
+    protected string $password = "password";
+    protected string $dbname = "reports_php";
 
     public function dbConn(): mysqli
     {

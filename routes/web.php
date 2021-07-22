@@ -8,7 +8,7 @@ use App\Routes\Router;
 
 $router = new Router();
 
-$router->get('/', [HomeController::class, 'index']);
+$router->get('/', [ReportController::class, 'index']);
 $router->get('/reports', [ReportController::class, 'index']);
 $router->get('/reports/show', [ReportController::class, 'show']);
 $router->get('/reports/create', [ReportController::class, 'create']);
