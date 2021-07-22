@@ -1,1 +1,4 @@
 /vendor/
+/config/database.php
+/config/app.php
+reports_barmej.sql

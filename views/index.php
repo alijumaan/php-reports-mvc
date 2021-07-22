@@ -1,3 +1,6 @@
+<?php
+$pageTitle = 'Homepage';
+?>
 <!doctype html>
 <html lang="en">
 <head>
