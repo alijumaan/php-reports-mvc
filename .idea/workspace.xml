@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92fd99bb-9d03-4451-a7d6-eb9abfe70bd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Database/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Database/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports_barmej.sql" beforeDir="false" afterPath="$PROJECT_DIR$/reports_php.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Routes/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Routes/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/uploads/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reports/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/reports/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reports/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/reports/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/img" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/Controllers" />
       <recent name="$PROJECT_DIR$/assets/uploads" />
       <recent name="$PROJECT_DIR$/views/reports" />
-      <recent name="$PROJECT_DIR$/app/Controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views" />
@@ -117,6 +120,8 @@
       <workItem from="1626871662111" duration="1808000" />
       <workItem from="1626903670740" duration="1987000" />
       <workItem from="1626947955817" duration="824000" />
+      <workItem from="1627065481655" duration="541000" />
+      <workItem from="1627153925159" duration="4699000" />
     </task>
     <servers />
   </component>

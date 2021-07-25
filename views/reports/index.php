@@ -45,7 +45,7 @@ require_once __DIR__.'/../../config/app.php';
                             <div style="background-image: url(<?php echo $config['app_url'].'assets/uploads/'.$report['image'] ?>)"
                                  class="thumbnail" ></div>
                         <?php else: ?>
-                            <div style="background-image: url(<?php echo $config['app_url'].'assets/uploads/default.png' ?>)"
+                            <div style="background-image: url(<?php echo $config['app_url'].'assets/img/default.png' ?>)"
                                  class="thumbnail" ></div>
                         <?php endif; ?>
                         <div class="p-2 text-dark">

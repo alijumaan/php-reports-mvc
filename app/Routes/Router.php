@@ -27,6 +27,7 @@ class Router
 //        $currentUrl = $_SERVER['PATH_INFO'] ?? '/'; // work with localhost:8080
 
         $currentUrl = $_SERVER['REQUEST_URI'] ?? '/';
+
         if (str_contains($currentUrl, '?')) {
             $currentUrl = substr($currentUrl, 0, strpos($currentUrl, '?'));
         }

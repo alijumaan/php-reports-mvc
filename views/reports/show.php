@@ -42,6 +42,10 @@ if (!isset($_SESSION['logged_in'])) {
                                 <img class="thumbnail"
                                      src="<?php echo $config['app_url'].'assets/uploads/' . $report['image'] ?>"
                                      alt="image not found">
+                            <?php else: ?>
+                                <img class="thumbnail"
+                                     src="<?php echo $config['app_url'].'assets/img/default.png' ?>"
+                                     alt="image not found">
                             <?php endif; ?>
                         </div>
                         <div class="col-10">

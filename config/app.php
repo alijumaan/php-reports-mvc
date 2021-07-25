@@ -1,5 +1,4 @@
 <?php
-require_once "database.php";
 
 $config = [
     'app_name' => 'Reports',
