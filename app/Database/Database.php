@@ -7,8 +7,8 @@ use mysqli;
 class Database extends \mysqli
 {
     protected string $server_name = "localhost";
-    protected string $user_name = "root";
-    protected string $password = "password";
+    protected string $user_name = "cartwhite";
+    protected string $password = "A1ijumaan-mysql";
     protected string $dbname = "reports_php";
 
     public function dbConn(): mysqli

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92fd99bb-9d03-4451-a7d6-eb9abfe70bd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/img/default.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Routes/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Routes/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/uploads/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/reports/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/reports/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/reports/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/reports/show.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +27,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/Controllers/ReportController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,7 +117,10 @@
       <workItem from="1626903670740" duration="1987000" />
       <workItem from="1626947955817" duration="824000" />
       <workItem from="1627065481655" duration="541000" />
-      <workItem from="1627153925159" duration="4699000" />
+      <workItem from="1627153925159" duration="9736000" />
+      <workItem from="1627238754125" duration="722000" />
+      <workItem from="1627305920970" duration="2637000" />
+      <workItem from="1627326109728" duration="3107000" />
     </task>
     <servers />
   </component>

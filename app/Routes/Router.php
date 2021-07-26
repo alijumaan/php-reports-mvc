@@ -7,10 +7,6 @@ class Router
     public array $getRoutes = [];
     public array $postRoutes = [];
 
-    public function __construct()
-    {
-    }
-
     public function get($url, $fn)
     {
         $this->getRoutes[$url] = $fn;
@@ -24,10 +20,9 @@ class Router
     public function resolve()
     {
 
-//        $currentUrl = $_SERVER['PATH_INFO'] ?? '/'; // work with localhost:8080
+        // $currentUrl = $_SERVER['PATH_INFO'] ?? '/'; // work with localhost:8080
 
         $currentUrl = $_SERVER['REQUEST_URI'] ?? '/';
-
         if (str_contains($currentUrl, '?')) {
             $currentUrl = substr($currentUrl, 0, strpos($currentUrl, '?'));
         }
