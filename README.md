@@ -3,6 +3,7 @@
 ## installation :
 - composer install
 - create or edit the database in config/database.php
+- edit config/app.php into your App URL etc...
 - import reports_php.sql file to your database
 - cd public && php -S localhost:8080
 - open browser in http://localhost:8080
